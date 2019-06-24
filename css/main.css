@@ -432,6 +432,8 @@ html {
     font-size: 22px;
     font-family: "Conv_Fontfabric - MullerBold", sans-serif;
     line-height: 22px; }
+  .main h2 {
+    padding-top: 20px; }
 
 .img {
   margin: 0px auto;
@@ -486,6 +488,8 @@ footer {
     top: 17px; } }
 
 @media (max-width: 578px) {
+  body {
+    padding-top: 60px; }
   .main h2 {
     font-size: 20px; } }
 
@@ -501,7 +505,10 @@ footer {
     top: 17px; } }
 
 @media (max-width: 375px) {
+  body {
+    padding-top: 40px; }
   .main h2 {
+    padding-top: 20px;
     font-size: 18px; } }
 
 @media (max-width: 340px) {
